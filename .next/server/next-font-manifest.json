@@ -1,0 +1,13 @@
+{
+  "app": {
+    "[project]/src/app/page": [
+      "static/media/swasam-s.p.52bce761.ttf"
+    ],
+    "[project]/src/app/song/page": [
+      "static/media/swasam-s.p.52bce761.ttf"
+    ]
+  },
+  "appUsingSizeAdjust": true,
+  "pages": {},
+  "pagesUsingSizeAdjust": false
+}

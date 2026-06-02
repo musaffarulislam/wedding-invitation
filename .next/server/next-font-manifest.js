@@ -1,0 +1,1 @@
+self.__NEXT_FONT_MANIFEST="{\n  \"app\": {\n    \"[project]/src/app/page\": [\n      \"static/media/swasam-s.p.52bce761.ttf\"\n    ],\n    \"[project]/src/app/song/page\": [\n      \"static/media/swasam-s.p.52bce761.ttf\"\n    ]\n  },\n  \"appUsingSizeAdjust\": true,\n  \"pages\": {},\n  \"pagesUsingSizeAdjust\": false\n}"

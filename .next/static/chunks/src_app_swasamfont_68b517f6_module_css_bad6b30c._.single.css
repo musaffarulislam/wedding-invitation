@@ -1,0 +1,25 @@
+/* [project]/src/app/swasamfont_68b517f6.module.css [app-client] (css) */
+@font-face {
+  font-family: swasamFont;
+  src: url("../media/swasam-s.p.52bce761.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: swasamFont Fallback;
+  src: local(Arial);
+  ascent-override: 62.54%;
+  descent-override: 27.16%;
+  line-gap-override: 0.0%;
+  size-adjust: 121.52%;
+}
+
+.swasamfont_68b517f6-module__L0Ap8G__className {
+  font-family: swasamFont, swasamFont Fallback;
+}
+
+.swasamfont_68b517f6-module__L0Ap8G__variable {
+  --font-swasam: "swasamFont", "swasamFont Fallback";
+}
+
+/*# sourceMappingURL=src_app_swasamfont_68b517f6_module_css_bad6b30c._.single.css.map*/
