@@ -11,12 +11,7 @@ const whatsappLink = `https://wa.me/${WEDDING_CONFIG.whatsappNumber}?text=${enco
   WEDDING_CONFIG.whatsappMessage
 )}`;
 
-const isMapsUrl = /^https?:\/\//i.test(WEDDING_CONFIG.venueAddress);
-const locationLink = isMapsUrl
-  ? WEDDING_CONFIG.venueAddress
-  : `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(
-      WEDDING_CONFIG.venueAddress
-    )}`;
+const locationLink = "https://maps.app.goo.gl/Lawk3H3D22PNJcjA7"
 
 const floatingHearts = Array.from({ length: 20 }, (_, i) => ({
   id: i,

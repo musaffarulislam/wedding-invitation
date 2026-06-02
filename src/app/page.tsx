@@ -136,6 +136,18 @@ export default function Home() {
           </SectionWrapper>
         </section>
       ))}
+
+      {/* Fixed Developed By */}
+      <div className="fixed bottom-0 left-0 right-0 z-50 py-2 ">
+        <a
+          href="https://musaffar.dev"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="block text-center text-[10px] md:text-xs text-red-600/30 transition-colors font-['Poppins'] tracking-wide"
+        >
+          Developed by musaffar
+        </a>
+      </div>
     </main>
   );
 }

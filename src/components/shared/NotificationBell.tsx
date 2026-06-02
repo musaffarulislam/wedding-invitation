@@ -66,11 +66,11 @@ export default function NotificationBell() {
   const initialTimeoutRef = useRef<NodeJS.Timeout | null>(null);
   const hoverTimeoutRef = useRef<NodeJS.Timeout | null>(null);
 
-  // Initial tooltip for 3 seconds
+  // Initial tooltip for 5 seconds
   useEffect(() => {
     initialTimeoutRef.current = setTimeout(() => {
       setShowTooltip(false);
-    }, 3000);
+    }, 5000);
 
     return () => {
       if (initialTimeoutRef.current) clearTimeout(initialTimeoutRef.current);
